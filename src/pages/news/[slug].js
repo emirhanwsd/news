@@ -89,8 +89,6 @@ export const getStaticProps = async (context) => {
       data: { data },
     } = await axios.get(`${API_URL}/news/${context.params.slug}`);
 
-    console.log(context);
-
     return {
       props: {
         article: data,
