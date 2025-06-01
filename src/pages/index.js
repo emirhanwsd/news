@@ -49,7 +49,7 @@ const Home = ({ news }) => {
   );
 };
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   try {
     const {
       data: { data: news },
