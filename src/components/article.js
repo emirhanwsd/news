@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Article = ({ article }) => {
   return (
-    <div className="group relative">
+    <div className="group relative overflow-hidden">
       <div className="space-y-4">
         <img
           src={article.image}
